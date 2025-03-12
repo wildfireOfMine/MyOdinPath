@@ -8,11 +8,11 @@ const SPA = () => {
   return (
     <>
         <h1>Welcome...</h1>
+        
 
-
-        <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='http://google.com' target='_blank' endIcon={<SendIcon />}>This SPA's repository</Button>
-        <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='http://google.com' target='_blank' endIcon={<GitHubIcon />}>This is my GitHub profile</Button>
-        <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='http://google.com' target='_blank' endIcon={<LinkedIn />}>This is my LinkedIn profile</Button>
+        <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='https://github.com/wildfireOfMine/MyOdinPath' target='_blank' endIcon={<SendIcon />}>This SPA's repository</Button>
+        <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='https://github.com/wildfireOfMine' target='_blank' endIcon={<GitHubIcon />}>This is my GitHub profile</Button>
+        <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='https://www.linkedin.com/in/iv%C3%A1n-anguera-moya-981b86319/' target='_blank' endIcon={<LinkedIn />}>This is my LinkedIn profile</Button>
     </>
   )
 }
