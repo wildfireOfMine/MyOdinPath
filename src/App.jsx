@@ -4,9 +4,9 @@ import SPA from './page/SPA'
 
 const App = () => {
   return (
-    <div>
+    <>
       <SPA/>
-    </div>
+    </>
   )
 }
 
