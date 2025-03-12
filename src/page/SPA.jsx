@@ -22,10 +22,16 @@ const SPA = () => {
           <h2>Now... Go!</h2>
         {/* </Slide> */}
 
-        <ul>
-          <li></li>
-        </ul>
         {/* Do the list of it basically */}
+        <ul>
+          <li>Receips</li>
+          <li>Landing Page</li>
+          <li>Rock, Papers, Scissors</li>
+          <li>Etch-a-Sketch</li>
+          <li>Calculator</li>
+          <li>CV Application</li>
+          <li>Memory Card</li>
+        </ul>
         
 
         <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='https://github.com/wildfireOfMine/MyOdinPath' target='_blank' endIcon={<SendIcon />}>This SPA's repository</Button>
