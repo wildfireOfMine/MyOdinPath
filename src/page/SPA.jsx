@@ -52,11 +52,17 @@ const SPA = () => {
           </li>
           <li>Calculator <HtmlIcon/> <CssIcon/> <JavascriptIcon/> 
             <Link href="https://wildfireofmine.github.io/Calculator/">
-              <img src={`https://api.apiflash.com/v1/urltoimage?access_key=${api_key}&url=https%3A%2F%2Fwildfireofmine.github.io%2FetchASketch%2Fhttps%3A%2F%2Fwildfireofmine.github.io%2FCalculator%2F&format=png`} />
+              <img src={`https://api.apiflash.com/v1/urltoimage?access_key=${api_key}&url=https%3A%2F%2Fwildfireofmine.github.io%2FCalculator%2F&format=png`} />
             </Link>
           </li>
           <li>CV Application</li>
+            <Link href="https://cv-app-top.vercel.app/">
+              <img src={`https://api.apiflash.com/v1/urltoimage?access_key=${api_key}&url=https%3A%2F%2Fcv-app-top.vercel.app%2F&format=png`} />
+            </Link>
           <li>Memory Card</li>
+            <Link href="https://memory-card-nine-chi.vercel.app/">
+              <img src={`https://api.apiflash.com/v1/urltoimage?access_key=${api_key}&url=https%3A%2F%2Fmemory-card-nine-chi.vercel.app%2F&format=png`}/>
+            </Link>
         </ul>
         
 
