@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.MuiContainer-root{
+  margin: 5px;
+}
+
 .containerIntro {
   background-color: #c6d8ff !important;
   border: 2px solid grey;
@@ -47,6 +51,7 @@
   background-color: #4c1036;
   border: 2px solid grey;
   border-radius: 90px;
+  padding: 50px;
 }
 
 a {

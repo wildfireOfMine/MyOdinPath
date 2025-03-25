@@ -27,6 +27,10 @@ const Animation = () => {
           sx={{
           animation: `${slideIn} 1s ease-out`,
           fontFamily: "fantasy",
+          transition: "color 0.3s ease",
+            '&:hover': {
+            color: "black",
+          },
             }}
         >Now... Go!</Typography>
         </Box>

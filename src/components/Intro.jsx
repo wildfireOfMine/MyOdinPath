@@ -25,14 +25,21 @@ const Intro = () => {
     >
         <Typography variant='h2' fontFamily={'fantasy'} 
         sx={{
-          transition: "font-style 0.3s ease",
+          transition: "color 0.3s ease",
             '&:hover': {
-            fontStyle: "italic",
+            color: "white",
           },
         }}
         >Welcome...</Typography>
         
-        <Typography variant='h1'>My Odin Path</Typography>
+        <Typography variant='h1' fontWeight={'bold'}
+        sx={{
+          transition: "color 0.3s ease",
+            '&:hover': {
+            color: "white",
+          },
+        }}
+        >My Odin Path</Typography>
         
           <Link href="https://www.theodinproject.com/" target="_blank">
             <Box
