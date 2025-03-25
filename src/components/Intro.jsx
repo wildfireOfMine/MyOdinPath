@@ -1,4 +1,4 @@
-import { Box, Container, keyframes, Link, Typography } from '@mui/material'
+import { Box, Container, keyframes, Link, Tooltip, Typography } from '@mui/material'
 import topImage from "../assets/top.png";
 import React from 'react'
 
@@ -21,21 +21,38 @@ const Intro = () => {
         sx={{
           animation: `${phantasm} 1s ease-out`,
         }}
+        className='containerIntro'
     >
-        <Typography variant='h2'>Welcome...</Typography>
+        <Typography variant='h2' fontFamily={'fantasy'} 
+        sx={{
+          transition: "font-style 0.3s ease",
+            '&:hover': {
+            fontStyle: "italic",
+          },
+        }}
+        >Welcome...</Typography>
         
         <Typography variant='h1'>My Odin Path</Typography>
-        <Link href="https://www.theodinproject.com/" target="_blank">
-        <Box
-          component="img"
-          sx={{
-            height: "100%",
-            width: "100%",
-          }} 
-          alt="The Odin Project's logo"
-          src={topImage}
-        />
-        </Link>
+        
+          <Link href="https://www.theodinproject.com/" target="_blank">
+            <Box
+              component="img"
+              sx={{
+                height: "100%",
+                width: "100%",
+                border: "6px solid grey",
+                borderRadius: "90px",
+                marginTop: "15px",
+                textAlign: "center",
+                transition: "border-color 0.3s ease",
+                '&:hover': {
+                  borderColor: "white",
+                },
+              }} 
+              alt="The Odin Project's logo"
+              src={topImage}
+            />
+          </Link>
 
     </Container>
   )

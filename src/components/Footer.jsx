@@ -6,7 +6,7 @@ import { LinkedIn } from '@mui/icons-material';
 
 const Footer = () => {
   return (
-    <Container>
+    <Container className='containerFooter'>
         <Box>
             <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='https://github.com/wildfireOfMine/MyOdinPath' target='_blank' endIcon={<SendIcon />}>This SPA's repository</Button>
             <Button sx={{  mt: 1, mr: 1, mb: 1, ml: 1  }} variant="outlined" disableElevation href='https://github.com/wildfireOfMine' target='_blank' endIcon={<GitHubIcon />}>This is my GitHub profile</Button>

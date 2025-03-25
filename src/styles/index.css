@@ -13,6 +13,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.containerIntro {
+  background-color: #c6d8ff !important;
+  border: 2px solid grey;
+  border-radius: 90px;
+  color: black;
+}
+
+.containerIdea {
+  background-color: #71a9f7;
+  border: 2px solid grey;
+  border-radius: 90px;
+}
+
+.containerAnimation{
+  background-color: #213547 !important;
+  border: 2px solid grey;
+  border-radius: 90px;
+  transition: border-color 0.3s ease;
+}
+
+.containerAnimation:hover{
+  border-color: white;
+}
+
+.containerList{
+  background-color: #72195a;
+  border: 2px solid grey;
+  border-radius: 90px;
+}
+
+.containerFooter {
+  background-color: #4c1036;
+  border: 2px solid grey;
+  border-radius: 90px;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

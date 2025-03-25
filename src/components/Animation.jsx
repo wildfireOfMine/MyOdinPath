@@ -26,6 +26,7 @@ const Animation = () => {
         <Typography variant="h1"
           sx={{
           animation: `${slideIn} 1s ease-out`,
+          fontFamily: "fantasy",
             }}
         >Now... Go!</Typography>
         </Box>

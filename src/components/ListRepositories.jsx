@@ -1,4 +1,4 @@
-import { Link } from '@mui/material'
+import { Container, Link } from '@mui/material'
 import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
 import JavascriptIcon from '@mui/icons-material/Javascript';
@@ -8,7 +8,7 @@ const ListRepositories = () => {
   const api_key = import.meta.env.VITE_API_KEY;
 
   return (
-    <>
+    <Container className='containerList'>
         {/* Do the list of it basically */}
         <ul>
           <li>Receips  <HtmlIcon/> 
@@ -48,7 +48,7 @@ const ListRepositories = () => {
             <h2>Coming soon...</h2>
           </li>
         </ul>
-    </>
+    </Container>
   )
 }
 

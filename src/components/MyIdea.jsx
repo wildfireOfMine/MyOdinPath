@@ -3,7 +3,7 @@ import React from 'react'
 
 const MyIdea = () => {
   return (
-    <Container>
+    <Container className='containerIdea'>
         <ul>
           <li>What is This?
             <h2>This is a SPA (Single Page Application) created with the following aims:</h2>
