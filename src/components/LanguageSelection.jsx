@@ -10,7 +10,6 @@ const LanguageSelection = () => {
             <Button onClick={()=>i18n.changeLanguage("en")}>English</Button>
             <Button onClick={()=>i18n.changeLanguage("cat")}>Català</Button>
             <Button onClick={()=>i18n.changeLanguage("pr")}>Português</Button>
-            <Button onClick={()=>i18n.changeLanguage("it")}>Italiano</Button>
         </ButtonGroup>
 
     </>

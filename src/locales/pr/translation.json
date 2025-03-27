@@ -1,0 +1,26 @@
+{
+    "welcome": "Bem-vindo",
+    
+    "what_is":"O que é isto?",
+    "SPA":"Isto é uma SPA (Single Page Application) com os seguintes objectivos:",
+    "firstAim":"Colecionar e ilustrar todos os meus projetos e tarefas do TheOdinProject em um único SPA",
+    "secondAim":"Começar à libreria do React MUI",
+
+    "animation": "Agora... Vamos!",
+
+    "descriptionReceipts":"Feito com HTML. Una lista de receitas de comida.",
+    "descriptionLandingPage":"Feito com HTML e CSS. Um modelo que segue o design padrão.",
+    "descriptionRPS":"Feito com HTML, CSS, JavaScript e Bootstrap. O clássico jogo de Pedra, Paper, Tisora.",
+    "descriptionSketch":"O jogo da Lousa Mágica. As mesmas línguas de antes.",
+    "descriptionCalculator":"Uma calculadora. As mesmas línguas de antes.",
+    "descriptionCV":"Um Currículum Vitae em linha que pode ser editado. Feito com os useState do React.",
+    "descriptionMemory":"O jogo da memória com cartas. Feito com os useEffect e os useEffect do React.",
+    "seeSite":"Ver página",
+    "seeMore":"Ver mais",
+    "tbd":"O que mais?",
+    "comingSoon":"Ainda mais...",
+
+    "firstButton":"O meu repositório deste SPA",
+    "secondButton":"O meu perfil do GitHub",
+    "thirdButton":"O meu perfil do LinkedIn"
+}

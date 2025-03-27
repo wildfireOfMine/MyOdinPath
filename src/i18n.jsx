@@ -5,13 +5,12 @@ import * as common_en from '../src/locales/en/translation.json'
 import * as common_es from '../src/locales/es/translation.json'
 import * as common_cat from '../src/locales/cat/translation.json'
 import * as common_pr from '../src/locales/pr/translation.json'
-import * as common_it from '../src/locales/it/translation.json'
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    supportedLngs: ['en', 'es', 'cat', 'pr', 'it'],
+    supportedLngs: ['en', 'es', 'cat', 'pr'],
     fallbackLng: 'en',
     resources: {
       en: {
@@ -25,9 +24,6 @@ i18n
       },
       pr: {
         translation: common_pr,
-      },
-      it: {
-        translation: common_it,
       },
     },
     ns: ["translation"],

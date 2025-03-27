@@ -13,7 +13,7 @@
     "descriptionRPS":"Fet a HTML, CSS, JavaScript i Boostrap. El clàssic joc de Pedra, Paper i Tissores.",
     "descriptionSketch":"El joc de la Pissarra Màgica. Las mateixes llengües que abans.",
     "descriptionCalculator":"Una calculadora. Las mateixes llengües que abans. Una calculadora. Los mismos lenguajes que los anteriores.",
-    "descriptionCV":"Un Currículum Vitae en línea que pot ser editat. Fet amb els useState de React.",
+    "descriptionCV":"Un Currículum Vitae en línea que pot ésser editat. Fet amb els useState de React.",
     "descriptionMemory":"El joc de memòria de les cartes. Fet amb els useEffect i els useState de React.",
     "seeSite":"Veure pàgina",
     "seeMore":"Veure més",
@@ -22,5 +22,5 @@
 
     "firstButton":"El repositori d'aquest SPA",
     "secondButton":"El meu perfil de GitHub",
-    "thirdButton":"El meu perfil LinkedIn"
+    "thirdButton":"El meu perfil de LinkedIn"
 }
