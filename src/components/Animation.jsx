@@ -21,7 +21,6 @@ const Animation = () => {
 
   return (
     <Container className='containerAnimation'>
-        {/* <Slide direction="up" mountOnEnter unmountOnExit> */}
         <Box 
             className="boxAnimation"
         >
@@ -36,7 +35,6 @@ const Animation = () => {
             }}
         >{t('animation')}</Typography>
         </Box>
-        {/* </Slide> */}
     </Container>
   )
 }

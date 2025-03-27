@@ -5,9 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { useTranslation } from 'react-i18next';
 
 const CustomCard = ({image, title, description, website, repository}) => {
-  
+    const { t } = useTranslation();
     return (
       <Card sx={{ maxWidth: 705 }}>
         <CardMedia
@@ -27,8 +28,8 @@ const CustomCard = ({image, title, description, website, repository}) => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small"><a href={website} target='_blank'>Ver página</a></Button>
-          <Button size="small"><a href={repository} target='_blank'>Ver más</a></Button>
+          <Button size="small"><a href={website} target='_blank'>{t('seeSite')}</a></Button>
+          <Button size="small"><a href={repository} target='_blank'>{t('seeMore')}</a></Button>
         </CardActions>
       </Card>
     );

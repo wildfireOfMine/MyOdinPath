@@ -2,13 +2,23 @@
     "welcome": "Welcome",
 
     "what_is":"What is this?",
-    "SPA":"SPA",
+    "SPA":"This is a SPA (Single Page Application) created with the following aims:",
     "firstAim":"Gather and collect all my TheOdinProject projects and tasks so far done in a SPA",
     "secondAim":"Test and practise with React's MUI library",
 
     "animation": "Now... Go!",
 
-    "Card":"Card",
+    "descriptionReceipts":"Done in HTML. A list of food receipts.",
+    "descriptionLandingPage":"Done in HTML and CSS. A landing page.",
+    "descriptionRPS":"Done with HTML, CSS, JavaScript and Bootstrap. Classic game of Rock, Papers, Scissors.",
+    "descriptionSketch":"An etch-a-sketch done with the same technologies as before.",
+    "descriptionCalculator":"Calculator. Same technologies as before.",
+    "descriptionCV":"An online Curriculum Vitae which can be edited. Done with React's useStates.",
+    "descriptionMemory":"A Memory Card game. Done with React's useEffects and useStates.",
+    "seeSite":"See website",
+    "seeMore":"See more",
+    "tbd":"What else?",
+    "comingSoon":"Coming soon...",
 
     "firstButton":"This SPA's repository",
     "secondButton":"This is my Github profile",

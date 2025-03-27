@@ -1,14 +1,24 @@
 {
     "welcome": "Bienvenido",
     
-    "what_is":"What is this?",
-    "SPA":"SPA",
-    "firstAim":"Gather and collect all my TheOdinProject projects and tasks so far done in a SPA",
-    "secondAim":"Test and practise with React's MUI library",
+    "what_is":"¿Qué es esto?",
+    "SPA":"Esto es una SPA (Single Page Application) con los siguientes propósitos:",
+    "firstAim":"Coleccionar e ilustrar todos mis proyectos y tareas de TheOdinProject en una sola SPA",
+    "secondAim":"Adentrarme a la librería de React MUI",
 
     "animation": "Ahora... ¡Vamos!",
 
-    "Card":"Card",
+    "descriptionReceipts":"Hecho en HTML. Una lista de recetas de comida.",
+    "descriptionLandingPage":"Hecho en HTML y CSS. Una plantilla que sigue el diseño de la regla.",
+    "descriptionRPS":"Hecho en HTML, CSS, JavaScript y Bootstrap. El clásico juego de Piedra, Papel y Tijeras.",
+    "descriptionSketch":"El juego de la Pizarra Mágica. Los mismos lenguajes que antes.",
+    "descriptionCalculator":"Una calculadora. Los mismos lenguajes que los anteriores.",
+    "descriptionCV":"Un Currículum Vitae en línea que puede ser editado. Hecho con los useState de React.",
+    "descriptionMemory":"El juego de la memoria de las cartas. Hecho con los useEffect y useStates de React.",
+    "seeSite":"Ver página",
+    "seeMore":"Ver más",
+    "tbd":"¿Qué más?",
+    "comingSoon":"Por verse...",
 
     "firstButton":"El repositorio de esta SPA",
     "secondButton":"Mi perfil de GitHub",

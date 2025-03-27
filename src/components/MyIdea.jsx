@@ -1,7 +1,9 @@
 import { Container, Typography } from '@mui/material'
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const MyIdea = () => {
+  const { t } = useTranslation();
   return (
     <Container className='containerIdea'>
         <ul>
@@ -11,14 +13,14 @@ const MyIdea = () => {
                     '&:hover': {
                     color: "red",
                   },
-                }}>What is This?</Typography>
+                }}>{t('what_is')}</Typography>
             <Typography variant='h5' fontWeight={'bold'}
               sx={{
                 transition: "color 0.3s ease",
                   '&:hover': {
                   color: "black",
                 },
-              }}>This is a SPA (Single Page Application) created with the following aims:</Typography>
+              }}>{t('SPA')}</Typography>
             <ul>
               <li><Typography variant='body1'
               sx={{
@@ -26,14 +28,14 @@ const MyIdea = () => {
                   '&:hover': {
                   color: "black",
                 },
-              }}>Gather and collect all my TheOdinProject projects and tasks so far done in a SPA</Typography></li>
+              }}>{t('firstAim')}</Typography></li>
               <li><Typography variant='body1'
               sx={{
                 transition: "color 0.3s ease",
                   '&:hover': {
                   color: "black",
                 },
-              }}>Test and practise with React's MUI library</Typography></li>
+              }}>{t('secondAim')}</Typography></li>
             </ul>
           </li>
         </ul>
