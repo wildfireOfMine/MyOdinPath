@@ -24,6 +24,11 @@
   color: black;
 }
 
+.containerIntro > div > button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .containerIdea {
   background-color: #71a9f7;
   border: 2px solid grey;
