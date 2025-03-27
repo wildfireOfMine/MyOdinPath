@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome",
+
+    "what_is":"What is this?",
+    "SPA":"SPA",
+    "firstAim":"Gather and collect all my TheOdinProject projects and tasks so far done in a SPA",
+    "secondAim":"Test and practise with React's MUI library",
+
+    "animation": "Now... Go!",
+
+    "Card":"Card",
+
+    "firstButton":"This SPA's repository",
+    "secondButton":"This is my Github profile",
+    "thirdButton":"This is my LinkedIn profile"
+}
