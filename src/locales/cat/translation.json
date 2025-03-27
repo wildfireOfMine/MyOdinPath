@@ -1,0 +1,26 @@
+{
+    "welcome": "Benvingut",
+    
+    "what_is":"Què és això?",
+    "SPA":"Això és una SPA (Single Page Application) amb els següents objectius:",
+    "firstAim":"Coleccionar i il·lustrar tots els meus projectes i deures de TheOdinProject en sols una SPA",
+    "secondAim":"Entrar a la llibreria de React MUI",
+
+    "animation": "Ara... Som-hi!",
+
+    "descriptionReceipts":"Fet a HTML. Una llista de receptes de menjar.",
+    "descriptionLandingPage":"Fet a HTML i CSS. Una plantilla que segueix el diseny de la regla.",
+    "descriptionRPS":"Fet a HTML, CSS, JavaScript i Boostrap. El clàssic joc de Pedra, Paper i Tissores.",
+    "descriptionSketch":"El joc de la Pissarra Màgica. Las mateixes llengües que abans.",
+    "descriptionCalculator":"Una calculadora. Las mateixes llengües que abans. Una calculadora. Los mismos lenguajes que los anteriores.",
+    "descriptionCV":"Un Currículum Vitae en línea que pot ser editat. Fet amb els useState de React.",
+    "descriptionMemory":"El joc de memòria de les cartes. Fet amb els useEffect i els useState de React.",
+    "seeSite":"Veure pàgina",
+    "seeMore":"Veure més",
+    "tbd":"Què més n'hi ha?",
+    "comingSoon":"Per veure...",
+
+    "firstButton":"El repositori d'aquest SPA",
+    "secondButton":"El meu perfil de GitHub",
+    "thirdButton":"El meu perfil LinkedIn"
+}
