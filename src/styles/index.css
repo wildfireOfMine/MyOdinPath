@@ -47,6 +47,17 @@
   border-radius: 90px;
 }
 
+.containerList > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerList > ul > li {
+  margin: 5px;
+}
+
 .containerFooter {
   background-color: #4c1036;
   border: 2px solid grey;

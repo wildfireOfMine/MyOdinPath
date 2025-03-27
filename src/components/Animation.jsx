@@ -1,10 +1,12 @@
 import React from 'react'
 import { Box, Container, Typography } from '@mui/material';
 import { keyframes } from '@emotion/react';
+import { useTranslation } from 'react-i18next';
+import i18n from '../i18n';
 
 
 const Animation = () => {
-
+    const { t } = useTranslation();
     const slideIn = keyframes`
     0% {
         transform: translateX(100%);
@@ -32,7 +34,7 @@ const Animation = () => {
             color: "black",
           },
             }}
-        >Now... Go!</Typography>
+        >{t('animation')}</Typography>
         </Box>
         {/* </Slide> */}
     </Container>

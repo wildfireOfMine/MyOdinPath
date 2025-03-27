@@ -1,9 +1,12 @@
 import { Box, Container, keyframes, Link, Tooltip, Typography } from '@mui/material'
 import topImage from "../assets/top.png";
 import React from 'react'
+import LanguageSelection from './LanguageSelection';
+import i18n from '../i18n';
+import { useTranslation } from 'react-i18next';
 
 const Intro = () => {
-
+    const { t } = useTranslation();
     const phantasm = keyframes`
       0% {
         opacity: 0;
@@ -15,6 +18,8 @@ const Intro = () => {
         opacity: 1;
       }
     `;
+
+      console.log(i18n.language);
 
   return (
     <Container 
@@ -30,7 +35,7 @@ const Intro = () => {
             color: "white",
           },
         }}
-        >Welcome...</Typography>
+        >{t('welcome')}</Typography>
         
         <Typography variant='h1' fontWeight={'bold'}
         sx={{
@@ -60,6 +65,8 @@ const Intro = () => {
               src={topImage}
             />
           </Link>
+
+          <LanguageSelection />
 
     </Container>
   )
