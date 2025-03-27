@@ -19,7 +19,6 @@ const Intro = () => {
       }
     `;
 
-      console.log(i18n.language);
 
   return (
     <Container 
