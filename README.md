@@ -3,7 +3,7 @@
 This is a repository that displays an index done in React showcasing my trajectory so far while following The Odin Project's website steps into learning
 front-end and back-end coding. 
 
-This project was done with React MUI.
+This project was done with React MUI and i18n.
 
 Original Vite README.md:
 
