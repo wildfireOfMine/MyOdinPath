@@ -20,42 +20,42 @@ ul, li{
 
 @media (max-width: 881px) {
   #root {
-    padding: 0;
-    min-width: 200px;
+    padding: 0 !important;
+    min-width: 200px !important;
   }
   .containerIntro {
-    padding: 5px;
+    padding: 5px !important;
   }
 
   .containerIntro h2 {
-    font-size: 4rem; 
-    margin-bottom: 5px;
+    font-size: 4rem !important; 
+    margin-bottom: 5px !important;
   }
 
   .containerIntro h1 {
-    font-size: 6rem;
-    margin-bottom: 10px;
+    font-size: 6rem !important;
+    margin-bottom: 10px !important;
   }
 
   .containerIntro img {
-    width: 50%;
-    height: auto;
+    width: 50% !important;
+    height: auto !important;
   }
 
   .css-zv9ro0-MuiButtonGroup-root{
-    width: 50%;
-    height: 50%;
-    justify-content: center;
+    width: 50% !important;
+    height: 50% !important;
+    justify-content: center !important;
     
   }
 
   .css-zv9ro0-MuiButtonGroup-root > button {
-    font-size: 0.5em;
+    font-size: 0.5em !important;
   }
 
   .containerIdea ul {
-    padding-left: 5px;
-    font-size: 0.8rem;
+    padding-left: 5px !important;
+    font-size: 0.8rem !important;
   }
   
   .css-dj6r2m-MuiCardMedia-root{
@@ -65,44 +65,44 @@ ul, li{
   }
 
   .containerFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 25px !important;
   }
 
   .containerFooter button {
-    width: 80%;
-    margin-bottom: 8px;
-    font-size: 0.7rem;
+    width: 80% !important;
+    margin-bottom: 8px !important;
+    font-size: 0.7rem !important;
   }
 
   .containerList .MuiCard-root {
-    max-width: 80%;
-    margin: 8px auto;
+    max-width: 80% !important;
+    margin: 8px auto !important;
   }
 
   .MuiButton-root {
-    font-size: 0.65rem; 
-    padding: 5px 10px;
+    font-size: 0.65rem !important; 
+    padding: 5px 10px !important;
   }
 
   .MuiCardMedia-root {
-    height: 180px;
+    height: 180px !important;
   }
   
   .containerList > ul {
-    padding-left: 0;
-    font-size: 0.75rem;
+    padding-left: 0 !important;
+    font-size: 0.75rem !important;
   }
 
   .containerFooter a {
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
   }
 }
 
 @media (max-width: 401px) {
   .css-zv9ro0-MuiButtonGroup-root > button {
-    font-size: 21%;
+    font-size: 21% !important;
   }
 }
