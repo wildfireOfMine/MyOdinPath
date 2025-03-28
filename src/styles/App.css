@@ -17,3 +17,92 @@ img{
 ul, li{
   list-style-type: none;
 }
+
+@media (max-width: 881px) {
+  #root {
+    padding: 0;
+    min-width: 200px;
+  }
+  .containerIntro {
+    padding: 5px;
+  }
+
+  .containerIntro h2 {
+    font-size: 4rem; 
+    margin-bottom: 5px;
+  }
+
+  .containerIntro h1 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+  }
+
+  .containerIntro img {
+    width: 50%;
+    height: auto;
+  }
+
+  .css-zv9ro0-MuiButtonGroup-root{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    
+  }
+
+  .css-zv9ro0-MuiButtonGroup-root > button {
+    font-size: 0.5em;
+  }
+
+  .containerIdea ul {
+    padding-left: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .css-dj6r2m-MuiCardMedia-root{
+    height: 200px !important;
+    width: 200px !important;
+    object-fit: cover !important;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+  }
+
+  .containerFooter button {
+    width: 80%;
+    margin-bottom: 8px;
+    font-size: 0.7rem;
+  }
+
+  .containerList .MuiCard-root {
+    max-width: 80%;
+    margin: 8px auto;
+  }
+
+  .MuiButton-root {
+    font-size: 0.65rem; 
+    padding: 5px 10px;
+  }
+
+  .MuiCardMedia-root {
+    height: 180px;
+  }
+  
+  .containerList > ul {
+    padding-left: 0;
+    font-size: 0.75rem;
+  }
+
+  .containerFooter a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 401px) {
+  .css-zv9ro0-MuiButtonGroup-root > button {
+    font-size: 20%;
+  }
+}
