@@ -25,6 +25,8 @@ ul, li{
   }
   .containerIntro {
     padding: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
   .containerIntro h2 {
